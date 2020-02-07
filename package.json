@@ -1,0 +1,21 @@
+{
+  "name": "lemonade-math",
+  "version": "1.0.0",
+  "description": "Math utility functions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelameaume/lemonade-math.git"
+  },
+  "keywords": [
+    "math",
+    "geometry",
+    "utils"
+  ],
+  "author": "Raphaël Améaume",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphaelameaume/lemonade-math/issues"
+  },
+  "homepage": "https://github.com/raphaelameaume/lemonade-math#readme"
+}
