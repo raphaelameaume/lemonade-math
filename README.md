@@ -1,24 +1,30 @@
 # lemonade-math
 Math utility functions
 
+## Usage
+
+`npm install lemonade-math`
+
 ### clamp(value, min, max)
+Clamps a value between min and max (both inclusive).
+
+### fract(value)
+Return the fractional part of value.
 
 ### map(value, min, max, newMin, newMax)
+Map value from one range [min, max] to an other [newMin, newMax].
 
 ### lerp(x, y, t)
-Linear interpolation between two float/int values (x, y) for a given t
-- `x`:
-- `y`:
-- `t`: A value in the range [0, 1]
+Linear interpolation between two float values (x, y) for a given t in range [0, 1].
 
-### lerp2([x0, y0], [x1, y1], t)
-Linear interpolation between two array of dimension 2 (x, y) for a given t
+### [x, y] = lerp2([x0, y0], [x1, y1], t)
+Linear interpolation between two arrays of dimension 2 (x, y) for a given t in range [0, 1].
 
-### lerp3([x0, y0], [x1, y1], t)
-Linear interpolation between two array of dimension 3 (x, y) for a given t
+### [x, y, z] = lerp3([x0, y0, z0], [x1, y1, z1], t)
+Linear interpolation between two arrays of dimension 3 (x, y) for a given t in range [0, 1].
 
-### lerp4([x0, y0], [x1, y1], t)
-Linear interpolation between two array of dimension 4 (x, y) for a given t
+### [x, y, z, w] = lerp4([x0, y0, z0, w0], [x1, y1, z1, w1], t)
+Linear interpolation between two arrays of dimension 4 (x, y) for a given t in range [0, 1].
 
 ### [x, y, z] = polarToGeo(latitude, longitude, radius)
 Return an array of 3D coordinates given a latitude, a longitude and radius
