@@ -10,6 +10,12 @@ Math utility functions
 ### (Number) v = clamp(value, min, max)
 Clamps a value between min and max (both inclusive).
 
+### (Number) v = degToRad(value)
+Convert `value` in degrees to radians.
+
+### (Number) v = radToDeg(value)
+Convert `value` in radians to degrees.
+
 ### (Number) v = fract(value)
 Return the fractional part of value.
 
@@ -33,3 +39,4 @@ Return an array of 3D coordinates given a latitude, a longitude and radius
 - `latitude`: A value between 0 and PI. Default to 0.
 - `longitude`: A value between -PI and PI. Default to 0.
 - `radius`: A value > 0. Default to 1.
+
