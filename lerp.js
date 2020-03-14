@@ -9,7 +9,7 @@ export function lerp2([x0, y0] = [], [x1, y1] = [], t) {
     ];
 }
 
-export function lerp3([x0, y0, z0] = [], [x1, y1, z0] = [], t) {
+export function lerp3([x0, y0, z0] = [], [x1, y1, z1] = [], t) {
     return [
         lerp(x0, x1, t),
         lerp(y0, y1, t),
