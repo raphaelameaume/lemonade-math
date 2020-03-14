@@ -1,9 +1,20 @@
 # lemonade-math
 Math utility functions
 
+## Installation
+
+```
+npm install lemonade-math
+```
+
 ## Usage
 
-`npm install lemonade-math`
+```js
+import { lerp } from "lemonade-math";
+
+console.log(lerp(0, 2, 0.5)); // 1
+
+```
 
 ## Functions
 
