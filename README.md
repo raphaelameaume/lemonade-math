@@ -51,3 +51,6 @@ Return an array of 3D coordinates given a latitude, a longitude and radius
 - `longitude`: A number between -PI and PI. Default to 0.
 - `radius`: A number > 0. Default to 1.
 
+## License
+
+MIT License, see [LICENSE](https://github.com/raphaelameaume/lemonade-helpers/tree/master/LICENSE) for details
