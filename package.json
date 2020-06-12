@@ -1,6 +1,6 @@
 {
   "name": "lemonade-math",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Math utility functions",
   "main": "index.js",
   "repository": {
