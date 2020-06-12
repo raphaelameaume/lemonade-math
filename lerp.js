@@ -1,5 +1,5 @@
 export function lerp(x, y, t) {
-    return (1 - t) * x * + t * y;
+    return (1 - t) * x + t * y;
 }
 
 export function lerp2([x0, y0] = [], [x1, y1] = [], t) {
