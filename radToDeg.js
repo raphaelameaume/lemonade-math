@@ -1,5 +1,10 @@
-export const RAD2DEG = 180 / Math.PI;
+import { RAD2DEG } from './constants.js';
 
-export function radToDeg(value) {
-    return value * RAD2DEG;
+/**
+ * Convert an angle in radians to degrees
+ * @param {number} angle
+ * @returns {number}
+ */
+export function radToDeg(angle) {
+	return angle * RAD2DEG;
 }
