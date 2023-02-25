@@ -1,5 +1,5 @@
 /**
- * Compute the squared distance between two 2D points
+ * Compute the square of the Euclidian distance between two 2D vectors
  * @param {[number, number]|[number, number, number]} a
  * @param {[number, number]|[number, number, number]} b
  * @returns {number}
@@ -10,7 +10,7 @@ export function squaredDistance(a, b) {
 }
 
 /**
- * Compute the squared distance between two 2D points
+ * Compute the square of the Euclidian distance between two 2D vectors
  * @param {[number, number]} a
  * @param {[number, number]} b
  * @returns {number}
@@ -23,7 +23,7 @@ export function squaredDistance2D([ax, ay], [bx, by]) {
 }
 
 /**
- * Compute the squared distance between two 3D points
+ * Compute the square of the Euclidian distance between two 3D vectors
  * @param {[number, number, number]} a
  * @param {[number, number, number]} b
  * @returns {number}
@@ -37,7 +37,7 @@ export function squaredDistance3D([ax, ay, az], [bx, by, bz]) {
 }
 
 /**
- * Compute the Euclidian distance between two points
+ * Compute the Euclidian distance between two vectors
  * @param {[number, number]|[number, number, number]} a
  * @param {[number, number]|[number, number, number]} b
  * @returns {number}
@@ -48,7 +48,7 @@ export function distance(a, b) {
 }
 
 /**
- * Compute the Euclidian distance between two 2D points
+ * Compute the Euclidian distance between two 2D vectors
  * @param {[number, number]} a
  * @param {[number, number]} b
  * @returns {number}
@@ -58,7 +58,7 @@ export function distance2D(a, b) {
 }
 
 /**
- * Compute the Euclidian distance between two 3D points
+ * Compute the Euclidian distance between two 3D vectors
  * @param {[number, number, number]} a
  * @param {[number, number, number]} b
  * @returns {number}

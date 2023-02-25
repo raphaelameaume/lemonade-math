@@ -1,5 +1,5 @@
 /**
- * Compute the fractional part of the argument
+ * Compute the fractional part of a value
  * @param {number} value
  * @returns {number}
  */
