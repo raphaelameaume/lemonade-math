@@ -1,9 +1,10 @@
 {
 	"name": "lemonade-math",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Math utility functions",
 	"main": "./index.js",
 	"module": "./index.js",
+	"type": "module",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/raphaelameaume/lemonade-math.git"
